@@ -1,2 +1,2 @@
 # TelegramBot.IAC
-Light demo Telegram bot
+Light demo Telegram bot.
