@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "IAC.Bot/1.0.0": {
+        "dependencies": {
+          "Telegram.Bot": "17.0.0-alpha.3",
+          "Telegram.Bot.Extensions.Polling": "1.0.0-alpha.1"
+        },
+        "runtime": {
+          "IAC.Bot.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "System.Threading.Channels/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Telegram.Bot/17.0.0-alpha.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Telegram.Bot.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.0.0.0"
+          }
+        }
+      },
+      "Telegram.Bot.Extensions.Polling/1.0.0-alpha.1": {
+        "dependencies": {
+          "System.Threading.Channels": "5.0.0",
+          "Telegram.Bot": "17.0.0-alpha.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Telegram.Bot.Extensions.Polling.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IAC.Bot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "System.Threading.Channels/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RLBIxntLaG9pRmmuVDwY1kc8Bvp/FQzSxPU+19VekkScKkWtVP9r8bLhm28ama3usc816UBrmkg3vv3jUea/hw==",
+      "path": "system.threading.channels/5.0.0",
+      "hashPath": "system.threading.channels.5.0.0.nupkg.sha512"
+    },
+    "Telegram.Bot/17.0.0-alpha.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-am+RYrZ1fEJk++GAquFatY5PAaWktBBe8RfKgralHjncziWGnhgBR/UX1RTiONf+Yz9UeV4kILyIA6E8KQXCmA==",
+      "path": "telegram.bot/17.0.0-alpha.3",
+      "hashPath": "telegram.bot.17.0.0-alpha.3.nupkg.sha512"
+    },
+    "Telegram.Bot.Extensions.Polling/1.0.0-alpha.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S34hwEeP/ueGNwolUUDnKUMbZ+2XUawsUtocmbJ9FpArmxpqB0gxg/MBNi6jkp4yJ5ZJWfz+Vy2vJBe9uGKIhw==",
+      "path": "telegram.bot.extensions.polling/1.0.0-alpha.1",
+      "hashPath": "telegram.bot.extensions.polling.1.0.0-alpha.1.nupkg.sha512"
+    }
+  }
+}
